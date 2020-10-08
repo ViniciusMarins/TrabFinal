@@ -1,0 +1,75 @@
+body{
+    padding-top: 4em;
+    background-color: white;
+    color: black;
+}
+#tituloPrincipal{
+    text-decoration: underline;
+    font-size: 5em;
+    color: #554c4c;
+}
+p{
+    text-align: justify;
+    width: 100%;
+    text-indent: 4em;
+    font-size: 25px;
+}
+#secao1,#secao2,#secao3,#secao4,#secao5,#secao6,#secao7,#secao8,#carouselExampleIndicators{
+    margin-left: 10em;
+    margin-right:10em;
+    border-radius: 5em;
+}
+#formulario{
+    margin-right: 200px;
+}
+a{
+    font-size: 20px;
+}
+.unica{
+    text-indent: 0em;
+}
+
+footer{
+    padding:15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (max-width:590px){
+    #tituloPrincipal{
+        text-decoration: underline;
+        font-size: 3em;
+        color: #554c4c;
+    }
+    p{
+        text-align: justify;
+        width: 100%;
+        text-indent: 1em;
+        font-size: 15px;
+    }
+    #secao1,#secao2,#secao3,#secao4,#secao5,#secao6,#secao7,#secao8,#carouselExampleIndicators{
+        margin-left: 2em;
+        margin-right:2em;
+    }
+    #h1{
+        font-size: 30px;
+    }
+    #formulario{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    a{
+        font-size: 12px;
+    }
+    #imagemdeavaliacao{
+        height: 8em;
+        max-width: 100%;
+    }
+    .unica{
+        text-indent: 0em;
+    }
+    
+
+}

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Vinicius Assunção Marins -- Trabalho Final </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="bibliotecas/bootstrap-4.5.2-dist/css/bootstrap.min.css">
+
+        <!-- JS,Popper,jQuery -->
+        <script src="bibliotecas/jquery-3.5.1.min.js"></script>
+        <script src="bibliotecas/popper.min.js"></script>
+        <script src="bibliotecas/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+
+
+        <!-- Meu CSS-->
+        <link rel="stylesheet" href="cssfinal.css" />
+
+        <!-- Meu JS-->
+        <script src="javascriptfinal.js"></script>    
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="navbar">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                                <!--Construindo o menu de seções-->
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="irParaSecao1"> Oque é? </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="irParaSecao2"> Pra que Serve?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="irParaSecao3"> Exemplo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="irParaSecao4"> Imagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="irParaSecao5"> Formulário</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="irParaSecao6"> Referencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="irParaSecao7"> Atuais e possíveis aplicações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="irParaSecao8"> Curiosidade sobre seu surgimento</a>
+                    </li>
+                </ul>
+                <a href="#" class="linkAcessibilidade" id="opExtra"> Extra</a>&nbsp;&nbsp;
+                <a href="#" class="linkAcessibilidade" id="opAltoContraste">Alto Contraste </a>
+            </div>
+        </nav>
+
+                                <!--Meu titulo principal-->
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+            <h1 class="display-5 text-center" id="tituloPrincipal">IBM WATSON</h1>
+            </div>
+        </div>
+
+                                <!--Primeira seção ( Oque é) -->
+        <div class="jumbotron text-center" id="secao1">
+            <h1 class="display-4" id="h1">Oque é?</h1>
+            <hr class="my-4">
+            <p>Watson é a plataforma de serviços cognitivos da IBM para negócios. 
+            A cognição consiste no processo que a mente humana utiliza para adquirir conhecimento 
+            a partir de informações recebidas.É um sistema para o processamento avançado, recuperação 
+            de informação, representação de conhecimento, raciocínio automatizado e tecnologias de 
+            aprendizado de máquinas.
+            </p>
+        </div>
+        <hr>
+
+                                <!--Segunda seção (Pra que serve?) -->
+        <div class="jumbotron text-center" id="secao2">
+            <h1 class="display-4" id="h1">Pra Que Serve?</h1>
+            <hr class="my-4">
+            <p>O Watson foi criado pela IBM para auxiliar profissionais, desenvolvedores, startups 
+                e empresas a construírem sistemas cognitivos que possam melhorar processos, interações 
+                e ações.
+            </p>
+        </div>
+
+                                <!--Terceira seção (Exemplos de aplicação) -->
+        <div class="jumbotron text-center" id="secao3">
+            <h1 class="display-4" id="h1">Watson na Saúde</h1>
+            <hr class="my-4">
+            <p>O Watson com sua tecnologia cognitiva vem ajudando pesquisadores no desenvolvimento de 
+                novos medicamentos. Antes de se ter um novo medicamento é necessário uma análise de 
+                centenas ou milhares de artigos científicos, livros e patentes até que se encontrem 
+                possíveis caminhos para o estudo. Essa revisão bibliográfica, que geralmente leva 
+                semanas ou meses, já é executada pelo Watson em minutos.
+            </p>
+        </div>
+
+                                <!--Quarta seção (Carousel de imagens com legenda) -->
+        <div class="jumbotron text-center" id="secao4">
+            <h1 class="display-4" id="h1">Imagens Relacionadas</h1>
+            <hr class="my-4">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="exemplo 1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Aplicação na Saúde</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="exemplo 2.0.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Supercomputador Watson</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="exemplo 3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Aplicaçoes cognitivas</h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="exemplo 4.0.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Aplicação em Desenvolvimento Neural</h5>
+                    </div>
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+
+                                <!--Quinta seção (Formulario para interessados) -->
+        <div class="jumbotron text-center" id="secao5">
+            <h1 class="display-4" id="h1">Formulario de interesse</h1>
+            <hr class="my-4">
+            <div class="container">
+                <div class="row text-left">
+                    <div class="col-3"></div>
+                        <div class="col-6">
+                            <form class="text-left" id="formulario">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputTelefone1">Telefone</label>
+                                    <input type="tel" class="form-control" id="exampleInputTelefone1">
+                            </div>
+                                <div class="form-group">
+                                    <label for="exampleInputNome1">Nome</label>
+                                    <input type="text" class="form-control" id="exampleInputNome1">
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Receber informações adicionais via e-mail!</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+                                <!--Sexta seção (Referência Bibliograficas) -->
+        <div class="jumbotron text-center" id="secao6">
+            <h1 class="display-4" id="h1">Referencias</h1>
+            <hr class="my-4">
+            <a href="https://pt.wikipedia.org/wiki/Watson_(supercomputador)#Watson_na_sa%C3%BAde">Clique aqui para acessar um conteúdo extra sobre o IBM WATSON (WEBSITE 1)</a>
+            <br>
+            <hr>
+            <a href="https://www.ibm.com/br-pt/watson">Clique aqui para acessar um conteúdo extra sobre o IBM WATSON (WEBSITE 2)</a>
+            <br>
+            <hr>
+            <a href="http://www.ctiglobal.com/watson/">Clique aqui para acessar um conteúdo extra sobre o IBM WATSON (WEBSITE 3)</a>
+        </div>
+
+                                <!--Sétima seção (Tópico extra sobre aplicações do WATSON) -->
+        <div class="jumbotron text-center" id="secao7">
+            <h1 class="display-4" id="h1">Atuais e possíveis aplicações</h1>
+            <hr class="my-4">
+            <p class="unica"> 1 .Saúde - no suporte de decisões clinicas.<br><br>
+                2 .Educação - parcerias estabelecidas com a Pearson Education, Blackboard, Sesame Workshop, e a Apple.<br><br>
+                3 .Previsão meteorológica - em Agosto de 2016, a IBM assumiu que iria usar o Watson para a previsão da meteorologia.<br><br>
+                4 .Marketing - o escaneamento de arquivos, com a finalidade de classifica-los como imagens, vídeos ou áudios, adicionando automaticamente "tags" pode salvar muito tempo para o profissional dessa área.<br><br>
+                5 .Segurança - o Watson tem a capacidade de reconhecimento visual, podendo visualizar um indivíduo através de câmeras, ajudando na segurança de empresas e lojas.<br><br>
+            </p>
+        </div>
+
+                                <!--Oitava seção (Tópico extra sobre o surgimento do WATSON) -->
+        <div class="jumbotron text-center" id="secao8">
+            <h1 class="display-4" id="h1">Curiosidade sobre seu surgimento</h1>
+            <hr class="my-4">
+            <p>Watson foi desenhado por um time da IBM para responder às perguntas feitas
+             num programa de televisão americano, Jeopardy, em 2011. Watson venceu o desafio 
+             ao analisar 200 milhões de páginas de livros para responder, em segundos, 
+             às perguntas feitas.
+            </p>
+        </div>
+        <footer> Desenvolvido por Vinicius Assunção Marins PE-3006948 </footer>
+    </body>
+
+</html>
